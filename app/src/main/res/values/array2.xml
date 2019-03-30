@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "FlatType2">
+        <item>Choose FlatType</item>
+        <item>2 ROOM FLEXI</item>
+        <item>3 ROOM</item>
+        <item>4 ROOM</item>
+        <item>5 ROOM</item>
+        <item>EXECUTIVE</item>
+    </string-array>
+    <string-array name = "Selling_Price_Range2">
+        <item>Choose Selling Price Range</item>
+        <item>$1 to $200,000</item>
+        <item>$200,001 to $400,000</item>
+        <item>$400,001 to 600,000</item>
+        <item>$600,001 to $800,000</item>
+        <item>$800,001 to $1,000,000</item>
+    </string-array>
+    <string-array name = "Flat_Supply_Range">
+        <item>Choose Flat Supply Range</item>
+        <item>1 to 50</item>
+        <item>51 to 100</item>
+        <item>101 to 150</item>
+        <item>151 to 200</item>
+        <item>More than 200</item>
+    </string-array>
+    <string-array name = "Ethnic_Group">
+        <item>Choose Ethnic Group</item>
+        <item>Chinese</item>
+        <item>Malay</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name = "Ethnic_Group_Quota">
+        <item>Select Ethnic Group Quota Range</item>
+        <item>1 to 50</item>
+        <item>51 to 100</item>
+        <item>101 to 150</item>
+        <item>151 to 200</item>
+        <item>More than 200</item>
+    </string-array>
+</resources>

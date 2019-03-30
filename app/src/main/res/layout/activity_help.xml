@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".activities.HelpActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="308dp"
+        android:layout_height="375dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/playfair_display"
+        android:maxLines="10"
+        android:text="This is the real application for your future! \nFirst filter your favorite flat, then choose region.\nThen let's go!\n\nOr you can search through website:"
+        android:textColor="@color/primary_text"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <TextView
+        android:id="@+id/textViewBTO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:text="BTO Flats"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <TextView
+        android:id="@+id/textViewResale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="198dp"
+        android:gravity="center"
+        android:text="Resale Flats"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:id="@+id/textViewSBF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="239dp"
+        android:gravity="center"
+        android:text="SBF Flats"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+</RelativeLayout>

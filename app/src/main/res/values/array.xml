@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "FlatType">
+        <item>Choose FlatType</item>
+        <item>2 ROOM</item>
+        <item>3 ROOM</item>
+        <item>4 ROOM</item>
+        <item>5 ROOM</item>
+        <item>EXECUTIVE</item>
+        <item>MULTI-GENERATION</item>
+    </string-array>
+    <string-array name = "Selling_Price_Range">
+        <item>Choose Selling Price Range</item>
+        <item>$1 to $200,000</item>
+        <item>$200,001 to $400,000</item>
+        <item>$400,001 to 600,000</item>
+        <item>$600,001 to $800,000</item>
+        <item>$800,001 to $1,000,000</item>
+        <item>More than $1,000,000</item>
+    </string-array>
+    <string-array name = "Remaining_Lease_Range">
+        <item>Choose Remaining Lease Range</item>
+        <item>1yr to 20yrs</item>
+        <item>21yrs to 40yrs</item>
+        <item>41yrs to 60yrs</item>
+        <item>61yrs to 80yrs</item>
+        <item>81yrs to 99yrs</item>
+    </string-array>
+    <string-array name = "Storey_Range">
+        <item>Choose Storey Range</item>
+        <item>1st floor to 4th floor</item>
+        <item>5th floor to 8th floor</item>
+        <item>9th floor to 12th floor</item>
+        <item>13th floor to 16th floor</item>
+        <item>More than 16th floor</item>
+    </string-array>
+    <string-array name = "Floor_Area_Range">
+        <item>Choose Floor Area Range</item>
+        <item>1sqm to 50sqm</item>
+        <item>51sqm to 100sqm</item>
+        <item>101sqm to 150sqm</item>
+        <item>151sqm to 200sqm</item>
+        <item>more than 200sqm</item>
+    </string-array>
+</resources>

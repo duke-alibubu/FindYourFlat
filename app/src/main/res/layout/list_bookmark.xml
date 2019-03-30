@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/bookmarkName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/playfair_display_black"
+        android:text="itemName"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/bookmarkDetails"
+        android:fontFamily="@font/playfair_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookmarkName"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:text="Details"
+        android:textSize="12dp"/>
+
+    <ImageView
+        android:id="@+id/unbookmark"
+        android:layout_width="53dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="337dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="34dp"
+        android:fontFamily="@font/playfair_display"
+        android:padding="5dp"
+        android:src="@drawable/unbookmark" />
+</RelativeLayout>

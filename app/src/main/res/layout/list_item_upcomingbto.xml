@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/flatName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/playfair_display_black"
+        android:text="itemName"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/flatTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="14dp"
+        android:layout_below="@+id/textView3"
+        android:fontFamily="@font/playfair_display"
+        android:text="Total"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/flatDetails"
+        android:fontFamily="@font/playfair_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flatName"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:text="Details"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:fontFamily="@font/playfair_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Estimated flats released:" />
+
+    <ImageView
+        android:id="@+id/bookmarky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flatTotal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="337dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/playfair_display"
+        android:padding="5dp"
+        android:src="@drawable/round_bookmarks_24" />
+</RelativeLayout>
